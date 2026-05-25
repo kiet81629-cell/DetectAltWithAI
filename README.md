@@ -10,14 +10,6 @@ This bot will likely produce a lot of false positives so please use with caution
 
 ![Screenshot](./screenshot.png)
 
-## Configuration & Setup
-
-1. Ensure that the latest version of [NodeJS](https://nodejs.org/en) installed.
-2. Copy the `.env.example` & enter in the neccesary data.
-3. Remove the comments from the `.env` to ensure it is parsed correctly (optional)
-4. Run `npm install`
-5. Run `npm run dev`
-
 ## Optimise Training Accuracy
 
 If you have multiple users in your ban list that are alt accounts, I recommend that you specfiy this in the `bans.json`. If you do not see one of these, you need to first run `npm run dev` and stop the program so that it generates one.
